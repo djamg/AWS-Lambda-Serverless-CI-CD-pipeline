@@ -1,4 +1,4 @@
-#AWS Lambda Serverless CI/CD Pipeline
+# AWS Lambda Serverless CI/CD Pipeline
 
 [![.github/workflows/sam-pipleline.yml](https://github.com/djamg/AWS-Lambda-Serverless-CI-CD-pipeline/actions/workflows/sam-pipleline.yml/badge.svg)](https://github.com/djamg/AWS-Lambda-Serverless-CI-CD-pipeline/actions/workflows/sam-pipleline.yml)
 
