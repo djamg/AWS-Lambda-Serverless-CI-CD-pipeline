@@ -18,7 +18,7 @@ Globals:
   Api:
     TracingEnabled: true
 Resources:
-  HelloWorldFunction:
+  SupportbeeAnalytics:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
       CodeUri: supportbee_analytics/
@@ -28,6 +28,6 @@ Resources:
       - x86_64
       Environment:
         Variables:
-          SUPPORTBEE_AUTH_TOKEN:
-          TELEGRAM_BOT_TOKEN:
-          TELEGRAM_CHAT_ID:
+          SUPPORTBEE_AUTH_TOKEN: '' # Environment variables need to be set to null in template.yaml file and later passed from secrets.json
+          TELEGRAM_BOT_TOKEN: ''
+          TELEGRAM_CHAT_ID: ''
